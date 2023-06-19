@@ -1,0 +1,19 @@
+.hero__wrapper {
+   background: var(--black);
+   color: white;
+}
+
+.hero__container {
+   justify-content: space-between;
+   padding: 1rem 0;
+   color: var(--secondary);
+}
+
+.hero__menu {
+   display: flex;
+   gap: 2rem;
+}
+
+.hero__menu>*:hover{
+   cursor: pointer;
+}
