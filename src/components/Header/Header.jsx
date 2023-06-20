@@ -4,12 +4,12 @@ import logo from '../../../public/logo.png'
 
 const Header = () => {
   return (
-    <section className="hero__wrapper">
-      <div className="flex__center paddings inner__width hero__container">
+    <section className="header__wrapper">
+      <div className="flex__center paddings inner__width header__container">
         
         <img src={logo} alt="" width={100} />
 
-        <div className="flex__center hero__menu">
+        <div className="flex__center header__menu">
           <a href="">Residencies</a>
           <a href="">Our Value</a>
           <a href="">Contact Us</a>
