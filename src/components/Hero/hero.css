@@ -54,6 +54,7 @@
 	padding: 0.5rem 1rem;
 	justify-content: space-between;
 	width: 100%;
+	max-width: 450px;
 }
 
 .search__bar-input{
@@ -74,8 +75,8 @@
 	color: orange;
 }
 
-.stat__name{
-
+.stat .secondary__text{
+	text-align: center;
 }
 
 /* Right side */
