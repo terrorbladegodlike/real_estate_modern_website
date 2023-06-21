@@ -1,0 +1,62 @@
+.value__container .image__container {
+   border: 8px solid rgba(232, 232, 232 / 93%);
+}
+
+.value__container>div{
+   flex: 1;
+}
+
+.value__right {
+   gap: 0.5rem;
+}
+
+.accordion{
+   margin-top: 2rem;
+   border: 0px solid transparent!important;
+   width: 100%;
+}
+
+.accordion__item{
+   background: white;
+   border: 0.8px solid rgba(128, 128, 128, 0.143);
+   border-radius: 8px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.accordion__item .expanded{
+   box-shadow: var(--shadow);
+   border-radius: px;
+}
+
+.accordion__button:before{
+   opacity: 0;
+   display: none!important;
+}
+
+.accordion__button{
+   background: white;
+   padding: 1rem;
+   width: 100%;
+   justify-content: space-between;
+   cursor: pointer;
+}
+
+.icon{
+   padding: 10px;
+   background: #eeeeff;
+   border-radius: 5px;
+}
+
+.icon svg{
+   fill: var(--blue);
+}
+
+.accordion__button .primary__text{
+   font-size: 1.1rem;
+}
+
+.accordion__panel-text{
+   width: 100%;
+   font-size: 0.7rem;
+}
